@@ -2,32 +2,52 @@ import React from "react";
 
 const About = () => {
   return (
-    <div
-      name="about"
+    <section
+      id="about"
       className="w-full h-fit bg-gradient-to-b from-gray-800 to-black text-white py-16 scroll-mt-20 animate-fadeInUp"
     >
-      <div className="max-w-screen-lg p-6 mx-auto flex flex-col justify-center w-full h-fit">
+      <div className="max-w-3xl mx-auto px-6 flex flex-col justify-center text-center md:text-left">
         
-        {/* Centered Title Section */}
-        <div className="pb-6 flex items-center justify-center">
-          <p className="text-4xl font-bold inline border-b-4 border-blue-500 text-center">
+        {/* Section Title */}
+        <div className="pb-8 text-center">
+          <h2 className="text-4xl font-bold border-b-4 border-blue-500 inline-block">
             About Me
-          </p>
+          </h2>
         </div>
 
-        <p className="text-lg leading-relaxed text-gray-300">
-          My journey as a developer began with a passion for web design, which evolved into a love for coding and problem-solving. Over time, I have gained expertise in **React.js, Next.js, Redux, and Node.js**, building both front-end and full-stack applications.
-        </p>
+        {/* About Content */}
+        <div className="space-y-10 text-lg leading-relaxed md:leading-loose text-gray-300">
+          <p>
+            My journey as a developer began with a deep passion for{" "}
+            <span className="text-cyan-400">web design</span>, which evolved into a love for{" "}
+            <span className="text-blue-400">coding</span> and{" "}
+            <span className="text-blue-400">problem-solving</span>. Over time, I have gained expertise in{" "}
+            <span className="text-cyan-400">React.js, Next.js, Redux, and Node.js</span>, building both{" "}
+            <span className="text-cyan-400">front-end</span> and{" "}
+            <span className="text-cyan-400">full-stack applications</span>.
+          </p>
 
-        <p className="text-lg leading-relaxed text-gray-300 mt-4">
-          I work extensively with **TailwindCSS, Axios, and API integrations** to create **dynamic, interactive, and responsive applications**. I have also honed my **version control skills** using GitHub, ensuring efficient project management.
-        </p>
+          <p>
+            I specialize in crafting{" "}
+            <span className="text-blue-400">dynamic, interactive, and responsive applications</span> using{" "}
+            <span className="text-cyan-400">Tailwind CSS, Axios, and API integrations</span>. Additionally, I have honed my{" "}
+            <span className="text-blue-400">version control skills</span> with GitHub, ensuring{" "}
+            <span className="text-cyan-400">efficient project management</span> and{" "}
+            <span className="text-cyan-400">seamless collaboration</span>.
+          </p>
 
-        <p className="text-lg leading-relaxed text-gray-300 mt-6 italic border-l-4 border-cyan-500 pl-4">
-          "As a dedicated and enthusiastic learner, I constantly seek to **expand my JavaScript expertise**, focusing on frameworks, UI/UX development, and problem-solving. My resilience and commitment to staying at the cutting edge of technology make me an exceptional developer."
-        </p>
+          {/* 🔥 Optimized Quote Box */}
+          <blockquote className="mt-14 p-6 italic border-l-4 border-cyan-500 bg-gray-900 rounded-lg shadow-md text-gray-200 leading-relaxed">
+            "As a dedicated and proactive learner, I continuously expand my{" "}
+            <span className="text-cyan-400">JavaScript expertise</span>, focusing on modern frameworks, UI/UX development,{" "}
+            and innovative problem-solving. My{" "}
+            <span className="text-blue-400">resilience, adaptability, and commitment</span> 
+            to staying at the forefront of technology make me an{" "}
+            <span className="text-cyan-400">exceptional problem solver and developer</span>."
+          </blockquote>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 
