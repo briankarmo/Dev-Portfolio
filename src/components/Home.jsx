@@ -12,7 +12,7 @@ const Home = () => {
         {/* Text section with responsive center alignment and padding adjustment */}
         <div className="flex flex-col items-center text-center space-y-4 max-w-lg mx-auto md:mx-0 md:text-center md:items-center transform md:-translate-y-20 pt-10 md:pt-0"> 
           <h1 className="text-4xl sm:text-7xl font-bold text-white">
-            Front-End <span className="text-cyan-400">Software Engineer</span>
+            Full-Stack <span className="text-cyan-400">Software Engineer</span>
           </h1>
           <p className="text-gray-400 leading-relaxed">
             Welcome to my <span className="text-blue-400">JavaScript portfolio</span>! 
