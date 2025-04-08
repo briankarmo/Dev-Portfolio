@@ -15,11 +15,13 @@ const Home = () => {
             Full-Stack <span className="text-cyan-400">Software Engineer</span>
           </h1>
           <p className="text-gray-400 leading-relaxed">
-            Welcome to my <span className="text-blue-400">JavaScript portfolio</span>! 
-            I specialize in creating <span className="text-cyan-400">dynamic</span>, 
-            <span className="text-blue-400"> interactive</span>, and 
-            <span className="text-cyan-400"> user-friendly</span> web applications.
-          </p>
+  Welcome to my <span className="text-blue-400">full-stack portfolio</span>! 
+  I specialize in building <span className="text-cyan-400">dynamic</span>, 
+  <span className="text-blue-400"> interactive</span>, and 
+  <span className="text-cyan-400"> user-friendly</span> web applications spanning 
+  both the <span className="text-cyan-400">front-end</span> and <span className="text-cyan-400">back-end</span>.
+</p>
+
         </div>
 
         {/* Hero Image Section */}
