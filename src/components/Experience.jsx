@@ -1,64 +1,68 @@
-import firebase from '../assets/firebase.png';  // Firebase
-import stripe from '../assets/stripe.png';  // Stripe
 import visual from '../assets/visual.webp';  // Visual Studio Code
+import figma from '../assets/figma.png';  // Figma
 import html from '../assets/html.png';  // HTML
 import css from '../assets/css.png';  // CSS
 import javascript from '../assets/javascript.png';  // JavaScript
+import typescript from '../assets/typescript.png';  // TypeScript
+import tailwind from '../assets/tailwind.png';  // Tailwind CSS
 import reactImage from '../assets/react.png';  // React JS
-import typescript from '../assets/typescript.png'; // TypeScript
-import vue from '../assets/vue.png'; // Vue.js
-import redux from '../assets/redux.png'; // Redux
-import next from '../assets/next.png'; // Next.js
-import reactNative from '../assets/reactnative.png'; // React Native
+import vue from '../assets/vue.png';  // Vue.js
+import redux from '../assets/redux.png';  // Redux
+import next from '../assets/next.png';  // Next.js
+import reactNative from '../assets/reactnative.png';  // React Native
 import vite from '../assets/vite.png';  // Vite
+
 import nodeJS from '../assets/node.png';  // Node.js
-import express from '../assets/express.png'; // Express.js
-import nest from '../assets/nest.png'; // NestJS
-import mongo from '../assets/mongo.png'; // MongoDB
-import aws from '../assets/aws.png'; // AWS
-import php from '../assets/php.png'; // PHP
-import laravel from '../assets/laravel.png'; // Laravel
-import python from '../assets/python.png'; // Python
-import liquid from '../assets/liquid.webp'; // Shopify Liquid
-import github from '../assets/github.webp'; // GitHub
-import api from '../assets/api.png'; // REST APIs
-import chat from '../assets/chatGPT.png'; // ChatGPT API
-import tailwind from '../assets/tailwind.png'; // Tailwind CSS
+import express from '../assets/express.png';  // Express.js
+import nest from '../assets/nest.png';  // NestJS
+import php from '../assets/php.png';  // PHP
+import laravel from '../assets/laravel.png';  // Laravel
+import python from '../assets/python.png';  // Python
+import mongo from '../assets/mongo.png';  // MongoDB
 import mern from '../assets/mern.jpg';  // MERN Stack
+import liquid from '../assets/liquid.webp';  // Shopify Liquid
+import aws from '../assets/aws.png';  // AWS
+
+import api from '../assets/api.png';  // REST APIs
+import chat from '../assets/chatGPT.png';  // ChatGPT API
+import firebase from '../assets/firebase.png';  // Firebase
+import stripe from '../assets/stripe.png';  // Stripe
+import github from '../assets/github.webp';  // GitHub
 
 const techs = [
-  // Frontend Technologies
+  // 💻 Front-End Languages & Frameworks
   { id: 1, src: visual, title: "Visual Studio Code", style: "shadow-blue-900" },
-  { id: 2, src: html, title: "HTML5", style: "shadow-orange-700" },
-  { id: 3, src: css, title: "CSS3", style: "shadow-blue-600" },
-  { id: 4, src: javascript, title: "JavaScript", style: "shadow-yellow-500" },
-  { id: 5, src: reactImage, title: "React JS", style: "shadow-sky-400" },
+  { id: 2, src: figma, title: "Figma", style: "shadow-pink-400" },
+  { id: 3, src: html, title: "HTML5", style: "shadow-orange-700" },
+  { id: 4, src: css, title: "CSS3", style: "shadow-blue-600" },
+  { id: 5, src: javascript, title: "JavaScript", style: "shadow-yellow-500" },
   { id: 6, src: typescript, title: "TypeScript", style: "shadow-gray-100" },
-  { id: 7, src: vue, title: "Vue.js", style: "shadow-green-400" },
-  { id: 8, src: redux, title: "Redux", style: "shadow-purple-400" },
-  { id: 9, src: next, title: "Next.js", style: "shadow-gray-100" },
-  { id: 10, src: reactNative, title: "React Native", style: "shadow-sky-400" },
-  { id: 11, src: vite, title: "Vite", style: "shadow-purple-600" },
-  { id: 12, src: tailwind, title: "Tailwind CSS", style: "shadow-cyan-400" },
+  { id: 7, src: tailwind, title: "Tailwind CSS", style: "shadow-cyan-400" },
+  { id: 8, src: reactImage, title: "React JS", style: "shadow-sky-400" },
+  { id: 9, src: vue, title: "Vue.js", style: "shadow-green-400" },
+  { id: 10, src: redux, title: "Redux", style: "shadow-purple-400" },
+  { id: 11, src: next, title: "Next.js", style: "shadow-gray-100" },
+  { id: 12, src: reactNative, title: "React Native", style: "shadow-sky-400" },
+  { id: 13, src: vite, title: "Vite", style: "shadow-purple-600" },
 
-  // Backend Technologies
-  { id: 13, src: nodeJS, title: "Node.js", style: "shadow-green-950" },
-  { id: 14, src: express, title: "Express.js", style: "shadow-yellow-500" },
-  { id: 15, src: nest, title: "NestJS", style: "shadow-red-600" },
-  { id: 16, src: mern, title: "MERN Stack", style: "shadow-orange-600" },
-  { id: 17, src: mongo, title: "MongoDB", style: "shadow-gray-100" },
-  { id: 18, src: aws, title: "AWS", style: "shadow-orange-700" },
-  { id: 19, src: php, title: "PHP", style: "shadow-purple-500" },
-  { id: 20, src: laravel, title: "Laravel", style: "shadow-blue-500" },
-  { id: 21, src: python, title: "Python", style: "shadow-yellow-500" },
+  // 🖥️ Back-End / Server-Side
+  { id: 14, src: nodeJS, title: "Node.js", style: "shadow-green-950" },
+  { id: 15, src: express, title: "Express.js", style: "shadow-yellow-500" },
+  { id: 16, src: nest, title: "NestJS", style: "shadow-red-600" },
+  { id: 17, src: php, title: "PHP", style: "shadow-purple-500" },
+  { id: 18, src: laravel, title: "Laravel", style: "shadow-blue-500" },
+  { id: 19, src: python, title: "Python", style: "shadow-yellow-500" },
+  { id: 20, src: mongo, title: "MongoDB", style: "shadow-gray-100" },
+  { id: 21, src: mern, title: "MERN Stack", style: "shadow-orange-600" },
   { id: 22, src: liquid, title: "Shopify Liquid", style: "shadow-gray-100" },
+  { id: 23, src: aws, title: "AWS", style: "shadow-orange-700" },
 
-  // APIs and Tools
-  { id: 23, src: github, title: "GitHub", style: "shadow-blue-400" },
+  // ⚙️ APIs & Tools
   { id: 24, src: api, title: "REST APIs", style: "shadow-red-600" },
   { id: 25, src: chat, title: "ChatGPT API", style: "shadow-blue-800" },
   { id: 26, src: firebase, title: "Firebase", style: "shadow-red-500" },
   { id: 27, src: stripe, title: "Stripe", style: "shadow-purple-600" },
+  { id: 28, src: github, title: "GitHub", style: "shadow-blue-400" },
 ];
 
 const Experience = () => {
